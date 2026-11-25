@@ -5,7 +5,7 @@
 [![reward](https://make.fun/badge/u-kiencx-roast-the-smart-fridge-one-line-best-laugh-b354d6c9/ujang201/roast-the-smart-fridge/reward.svg)](https://make.fun/bounty/u-kiencx-roast-the-smart-fridge-one-line-best-laugh-b354d6c9)
 
 One line roasting the smart fridge for the make.fun bounty
-"Roast the Smart Fridge: One Line, Best Laugh Wins".
+"Roast the Smart Fridge: One Line, Best Laugh Wins". The roast is assembled from fixed parts and checked against the gate before writing, so the joke lands the same way on every run.
 
 ## The entry
 
@@ -29,6 +29,8 @@ directory:
 ```sh
 OUTPUT_DIR=/tmp/out node main.ts
 ```
+
+Verify the roast: `node main.ts && cat /output/entry.txt`   # prints the single roast line
 
 The output is deterministic: every run produces the exact same line.
 
